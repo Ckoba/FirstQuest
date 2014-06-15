@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scenes\Blank\CameraNav.cs">
+    <Files>
+      <File FileName="Assets\Scenes\Blank\CameraNav.cs" Line="28" Column="23" />
+      <File FileName="Assets\ScriptsLogic\Enums\ScreenRatioType.cs" Line="15" Column="13" />
+      <File FileName="Assets\ScriptsLogic\GameConfig.cs" Line="6" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Scenes\Blank\CameraNav.cs" line="27" offsetX="677" offsetY="442" expression="Time.deltaTime" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
