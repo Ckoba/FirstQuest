@@ -1,8 +1,6 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
-using AssemblyCSharp.ScriptsLogic;
-using AssemblyCSharp.ScriptsLogic.Enums;
 
 public class CameraNav : MonoBehaviour {
 
@@ -25,25 +23,20 @@ public class CameraNav : MonoBehaviour {
 
     float _screenWidth;
 
-    float _speed = 0.4f;
+    float _speed = 0.3f;
     
     Transform _cameraTransform;
 
 	void Start () {
-		switch (GameConfig.ScreenRatio) 
-		{
-			case ScreenRatioType.Ratio16x9:
-				_cameraAxisMax = CameraAxisMax16x9;
-				break;
-			case ScreenRatioType.Ratio16x10:
-				_cameraAxisMax = CameraAxisMax16x10;
-				break;
-			case ScreenRatioType.Ratio4x3:
-				_cameraAxisMax = CameraAxisMax4x3;
-				break;
-			default : 
-				throw new NotImplementedException("Not realized for " + GameConfig.ScreenRatio);
-		}
+		float screenRatio = (float)Math.Round((float)Screen.width / (float)Screen.height, 2);
+		if (screenRatio == 1.78f) // 16x9
+			_cameraAxisMax = CameraAxisMax16x9;
+		else if (screenRatio == 1.60f) // 16x10
+			_cameraAxisMax = CameraAxisMax16x10;
+		else if (screenRatio == 1.33f) // 4x3
+			_cameraAxisMax = CameraAxisMax4x3;
+		else
+			throw new NotImplementedException (string.Format("Not implemented for Screen.width={0} and Screen.height={1}", Screen.width, Screen.height));
 
         _screenWidth = Screen.width;
         _cameraTransform = gameObject.transform.Find("MainCamera");
