@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scenes\Blank\CameraNav.cs">
     <Files>
-      <File FileName="Assets\Scenes\Blank\CameraNav.cs" Line="32" Column="1" />
+      <File FileName="Assets\Scenes\Blank\CameraNav.cs" Line="46" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,8 +28,8 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint hitAction="PrintExpression" traceExpression="{Time.deltaTime}" file="D:\GitHub\FirstQuest\Unity\Assets\Scenes\Blank\CameraNav.cs" line="27" />
-      <Breakpoint file="D:\GitHub\FirstQuest\Unity\Assets\Scenes\Blank\CameraNav.cs" line="32" />
+      <Breakpoint hitAction="PrintExpression" traceExpression="{Time.deltaTime}" file="D:\GitHub\FirstQuest\Unity\Assets\Scenes\Blank\CameraNav.cs" line="31" />
+      <Breakpoint file="D:\GitHub\FirstQuest\Unity\Assets\Scenes\Blank\CameraNav.cs" line="36" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

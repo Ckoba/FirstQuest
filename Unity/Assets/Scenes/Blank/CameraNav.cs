@@ -2,6 +2,10 @@
 using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Двигает камеру влево-вправо, при поднесении мышки к краю экрана
+/// </summary>
+[Obsolete("Сейчас используется неподвижная камера")]
 public class CameraNav : MonoBehaviour {
 
     /// <summary>
