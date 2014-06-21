@@ -1,38 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scenes\Blank\CameraNav.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BusinessLogisScripts\SceneHelper.cs">
     <Files>
-      <File FileName="Assets\Scenes\Blank\CameraNav.cs" Line="46" Column="32" />
+      <File FileName="Assets\Scenes\Blank\CameraWithBackgroundScript.cs" Line="21" Column="41" />
+      <File FileName="Assets\BusinessLogisScripts\SceneHelper.cs" Line="15" Column="4" />
+      <File FileName="Assets\BusinessLogisScripts\SceneData.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Scenes" expanded="True">
-              <Node name="Blank" expanded="True">
-                <Node name="CameraNav.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>Time.deltaTime</Value>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint hitAction="PrintExpression" traceExpression="{Time.deltaTime}" file="D:\GitHub\FirstQuest\Unity\Assets\Scenes\Blank\CameraNav.cs" line="31" />
-      <Breakpoint file="D:\GitHub\FirstQuest\Unity\Assets\Scenes\Blank\CameraNav.cs" line="36" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Assets\Scenes\Blank\CameraNav.cs" line="27" offsetX="677" offsetY="442" expression="Time.deltaTime" liveUpdate="True" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
